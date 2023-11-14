@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disha- Devoloper Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;6
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        
+        nav ul li a{
+           text-decoration: none;
+           color: white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+          
+        }
+
+        main hr{
+            border: 0;
+            height: 1px;
+            background: rgb(170, 107, 228);
+            margin: 60px 84px;
+        }
+
+        .left{
+            font-size: 3rem;
+        }
+
+        .firstSection{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 120px 0;
+          
+        }
+
+
+        .firstSection >div{
+            width: 30%;
+            
+        }
+
+
+
+        .leftSection{
+            
+            font-size: 2rem;
+         }
+         .leftSection .buttons{
+            padding: 50px 0;
+         }
+
+         .leftSection .btn{
+            
+            padding: 12px;
+            background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+         }
+
+        .rightSection img{
+            width: 80%;
+        }
+
+        .purple{
+            color: rgb(170, 107, 228)
+        }
+        .text-grey{
+            color: grey;
+        }
+        #element{
+            color: rgb(170, 107, 228);
+
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box{
+            background: white;
+            width: 79vw;
+            height: 1px;
+            margin: 72px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 63px;
+            width: 1px;
+            background-color: white;
+            margin: 0 6vw;
+             
+        }
+
+        .image-tophtml{
+            width: 63px;
+            position: relative;
+            top: -69px;
+            left: -48px;
+   
+        
+        }
+
+        .image-topcharacter{
+            width: 62px;
+            position: relative;
+            top: -65px;
+            left: -28px;
+        
+        }
+
+        .image-topunity{
+            width: 108px;
+            position: relative;
+            top: -65px;
+            left: -49px;
+        
+        }
+
+        .image-topblender{
+            width: 63px;
+            position: relative;
+            top: -65px;
+            left: -28px;
+        
+        }
+
+        .image-topjava{
+            width: 34px;
+            position: relative;
+            top: -69px;
+            left: -14px;
+        
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 13px;
+
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: rgb(23, 23, 51);
+           
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+          
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer>div{
+            width: 223px;
+        }
+        
+        footer .footer-rights{
+            text-align: center;
+            color: grey;
+            padding: 12px;
+        }
+
+        element.style{
+            
+        }
+       @media screen and (max-width: 1400px) 
+       {
+      
+        .box{
+            flex-direction: column;
+        }
+        .secondSection .vertical{
+            height: unset;
+        }
+
+        .vertical-title, .vertical-desc{
+            left: 78px;
+        }
+
+        .secondSection .box{
+            width: 100vw;
+        }
+        nav{
+            flex-direction: column;
+        }
+
+        
+        footer{
+            display: none;
+        }
+        .firstSection{
+            flex-direction: column-reverse;
+        }
+        .leftSection{
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+       .rightSection{
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+       }
+       .rightSection img{
+        width: 45vw;
+        margin-bottom: 73px;
+       }
+
+
+
+       .secondSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       body{
+        min-width: fit-content;
+       }
+    }    
+    
+          
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Disha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                
+                   <div> Hi! My name is <span class="purple"> Disha</span></div>
+
+                <div>and I'm a passionate</div>
+                
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+    
+               
+          
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.png">
+            </div>
+
+            
+
+
+
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey"> What have i done so far</span>
+            <h1>My Skillset</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-topblender" src="blender.png" alt="">
+                    <div class=""vertical-title>
+                        Blender Developer
+                    </div>
+                    <div class="vertical-desc">
+                        I've been using blender since first sem. It has given be an imaginative way of looking at things. Imagining from where did the series 'Walking Dead' got its animation and visual effects from. Yes its blender. This skill has added on to my skillset and I regularly try to make something I imagine or I see on this app.
+                    </div>
+
+                    
+                    
+                </div>
+
+
+                <div class="vertical"><img class="image-topunity" src="unitty.jpg" alt="">
+                    <div class=""vertical-title>
+                        UNITY Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Unity has been a powerful and versatile game dev platform that enhances our skillset. It helps me create realistic simulations and interactions of the characters that i make in blender. Making animated characters is just what i like to do in my free time.
+                    </div>
+
+
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-topcharacter" src="devo.png" alt="">
+                    <div class=""vertical-title>
+                        Character Designer
+                    </div>
+                    <div class="vertical-desc">
+                        For being a good game developer we first need to have a good imagination. Therefore character developing is something I'm on to everytime.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-topblender" src="html.jpg" alt="">
+                    <div class=""vertical-title>
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        I started to learn front end technologies in second semester which helped me create pretty basic websites. As my interest grew i moved onto more deeper concepts which resulted in making my frontend development stronger. I started to learn about ui/ux as well so that i can be a well-rounder developer. 
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-topjava" src="java.png" alt="">
+                    <div class=""vertical-title>
+                        JAVA Developer
+                    </div>
+                    <div class="vertical-desc">
+                    Java was a language we were always told to learn. So finally when i got it in my third semester I started learning it. Since then i've been learning this language and it's different frameworks. It also helps me in game dev with its libraries like  LibGDX and Java3D.
+                    </div>
+                    </div>
+
+
+            </div>  
+
+        </section>
+    </main>
+    
+    <footer>
+
+        <div class="footer">
+          <div class="footer-first">
+            <h3>Disha's developer protfolio</h3>
+          </div>
+          <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+                
+            </ul>
+          </div>
+          <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+                
+            </ul>
+          </div>
+          <div class="footer-fourth"> <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+            
+        </ul></div>
+        </div>
+        <div class="footer-rights">
+            Copyright&#169;www.disha'sportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Unity Developer' , ' and a Character Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
